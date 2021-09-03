@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,600;1,700;1,800;1,900&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background-color: #000000;
+}
+
+#contenedor{
+	width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+}
+
+h1, h2{margin-top: 25px;
+	color: #ffffff;
+	font-family: jost;
+	margin-bottom: 10px; 
+	text-align: left;
+}
+
+.txt_googlefont{
+	text-decoration: none;
+	color: #f1c40f;
+
+}
+
+.filter_grayscale{
+	filter: grayscale(3);
+
+}
+
+.filter_brightness{
+	filter: brightness(0.3);
+}
+
+p{
+	color: #ffffff;
+	font-family: jost;
+}
+
+.txt_2columnas{
+	column-count: 2;
+	column-gap: 30px;
+	text-align: justify;
+}
+
+.destacada{
+	color:#786fa6;
+	text-shadow: 0px 0px 20px; 
+}
+
+.ejercicio {
+		color: #ffffff;
+		font-family: jost;
+		text-align: justify;
+		font-size: 20px;
+
+}
+
+
+
+.multifondo {
+	width: 960px;
+	height: 640px;
+	background-color: white;
+	opacity:0.5;
+	background: 
+	url(../img/dados.png) center no-repeat,
+	url(../img/the_rolling_stones.png) left top  no-repeat,
+	url(../img/the_rolling_stones.png) right top  no-repeat,
+	url(../img/the_rolling_stones.png) left bottom  no-repeat,
+	url(../img/the_rolling_stones.png) right bottom no-repeat,
+	url(../img/mesa.jpg);
+
+
+}
+
+
+.transparencia{
+	width: 960px;
+	height: 640px;
+	background-color: green;
+	opacity: 0.1;
+}
+
+.sombra{
+	width: 960px;
+	height: 640px;
+	background-color: green;
+	box-shadow: 0px 0px 60px;
+	color: #f1c40f;
+
+}
+
+.degradado {
+		width: 960px;
+	height: 640px;
+	background-color: #00DBDE;
+background: linear-gradient(90deg, #00DBDE 0%, #FC00FF 100%);
+
+}
+
+.txt_shadow{
+	text-shadow: 0px 0px 25px;
+	color:#f1c40f;
+	letter-spacing: 2px;
+}
+
+.img_conejo_redondeados{
+	border-radius: 20px;
+}
